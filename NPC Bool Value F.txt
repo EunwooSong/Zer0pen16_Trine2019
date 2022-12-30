@@ -1,0 +1,13 @@
+퀘스트 줄 때
+ - 조건, isCanGetQuest == true
+
+퀘스트 확인 버튼
+ - Button On Clicked로 함수로 처리하자
+ - 변경, isCanGetQuest = false, isQuestProceeding = true
+
+퀘스트 거절 버튼 클릭시
+ - 변경점, X
+ - 함수로 버튼이 눌리면 처리
+
+퀘스트 진행 중 일 때
+ - 조건, isQuestProceeding == true

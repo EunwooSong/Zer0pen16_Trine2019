@@ -1,0 +1,8 @@
+unity 저장방식은 바이너리 형식
+
+퀘스트 줄 때 - isCanGetQuest : false
+퀘스트 확인 버튼 클릭시 - isCanGetQuest : true -> false, isQuestProceeding : false -> true
+퀘스트 거절 버튼 클릭시 - currentDialog : n -> 0
+퀘스트 진행 중 일 때 - isQuestProceeding : true
+퀘스트 완료했을 때 - isQuestDown : true, isGetReward : false -> true
+퀘스트가 없을 때 - isGetReward:true
